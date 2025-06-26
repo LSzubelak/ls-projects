@@ -9,7 +9,8 @@ dependencies:
   - matplotlib
   - statsmodels
   - scipy
+  - graphviz           # ← Graphviz binaries
+  - python-graphviz    # ← the Python wrapper
   - pip
-  - graphviz
-
-
+  - pip:
+    - networkx
