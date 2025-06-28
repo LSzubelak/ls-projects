@@ -1,0 +1,21 @@
+name: bayesian-regression-env
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10  # or 3.11 if you prefer, but check PyMC compatibility
+  - pandas
+  - numpy
+  - plotly
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - scikit-learn
+  - pymc3
+  - arviz  # recommended for Bayesian diagnostics with PyMC3
+  - linearmodels
+  - pip
+  - pip:
+      - causalpy
+      - causaldata
