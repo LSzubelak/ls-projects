@@ -4,7 +4,7 @@ channels:
   - defaults
 
 dependencies:
-  - python=3.10  # or 3.11 if you prefer, but check PyMC compatibility
+  - python=3.10  
   - pandas
   - numpy
   - plotly
@@ -12,8 +12,8 @@ dependencies:
   - seaborn
   - statsmodels
   - scikit-learn
-  - pymc3
-  - arviz  # recommended for Bayesian diagnostics with PyMC3
+  - pymc          
+  - arviz           
   - linearmodels
   - pip
   - pip:
